@@ -11,6 +11,10 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, at earum beatae quibusdam consequuntur fuga voluptate praesentium vitae accusantium dignissimos voluptas iusto nam voluptates fugit eum quasi, dolorem tenetur est.</p>
     <img src="{% static 'images/1.jpg' %}" alt="">  
 
+    {% for i in data %}
+    <p style="color:white">{{i.name}}</p> <span style="color:white">{{i.email}}</span>
+   
+    {% endfor %}
 
 
 </body>

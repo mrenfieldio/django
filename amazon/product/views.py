@@ -1,10 +1,18 @@
 from django.shortcuts import render
+from . models import *
 
 def home(request):
-    return render(request,'home.html')
+    d = {
+        'data': user.objects.all(),
+
+    }
+    return render(request,'home.html',d)
 
 def about(request):
-    return render(request,'about.html')
+    c={
+        'data':pro.objects.all(),
+    }
+    return render(request,'about.html',c)
 
 def contact(request):
     return render(request,'contact.html')

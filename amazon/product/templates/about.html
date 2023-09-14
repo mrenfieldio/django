@@ -9,5 +9,9 @@
 </head>
 <body>
     <h1>about</h1>
+
+    {% for i in data %}
+    <p>{{ i.name}}</p> <span>{{i.price}}</span>
+    {% endfor %}
 </body>
 </html>
