@@ -1,0 +1,26 @@
+.d1{
+    color:goldenrod;
+    font-weight:bolder;
+}
+.d2{
+    font-weight: bolder;
+}
+h5.rt1:hover{
+    color:rgb(184, 41, 41);
+}
+h5{
+    cursor: pointer;
+}
+.rt1{
+    color: whitesmoke;
+}
+/* @media (max-width: 1400px) and (min-width:1000px){
+.card{
+    width:250px !important;
+    height: auto;
+
+}
+} */
+.a12{
+    background-color:whitesmoke;
+}

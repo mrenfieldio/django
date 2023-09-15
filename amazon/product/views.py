@@ -17,3 +17,10 @@ def about(request):
 def contact(request):
     return render(request,'contact.html')
 
+def main(request):
+    e={
+        'sam':prodetails.objects.all()
+    }
+    return render(request,'product.html',e)
+
+

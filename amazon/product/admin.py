@@ -4,3 +4,4 @@ from . models import *
 
 admin.site.register(pro) 
 admin.site.register(user)
+admin.site.register(prodetails)

@@ -16,4 +16,10 @@ class user(models.Model):
     def __str__(self):
         return self.name
 
-        
+class prodetails(models.Model):
+    img=models.ImageField(upload_to='mypic/')
+    name=models.CharField(max_length=20)
+    price=models.IntegerField()
+
+    def __str__(self):
+        return self.name
