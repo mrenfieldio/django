@@ -5,7 +5,7 @@
 .d2{
     font-weight: bolder;
 }
-h5.rt1:hover{
+/* h5.rt1:hover{
     color:rgb(184, 41, 41);
 }
 h5{
@@ -13,7 +13,7 @@ h5{
 }
 .rt1{
     color: whitesmoke;
-}
+} */
 /* @media (max-width: 1400px) and (min-width:1000px){
 .card{
     width:250px !important;
@@ -23,4 +23,10 @@ h5{
 } */
 .a12{
     background-color:whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:whitesmoke;
 }
