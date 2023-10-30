@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{% static  'css/style.css' %}">
+    <title>Success</title>
+</head>
+<body>
+    <h1>Welcome, {{username}}! </h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <!-- <th scope="col">Id</th> -->
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Department</th>
+            <th scope="col">Program</th>
+
+          </tr>
+        </thead>
+        <tbody>
+      
+          <tr>
+            <!-- <th scope="row">{{db.id}}</th> -->
+            <td>{{db.name}}</td>
+            <td>{{db.age}}</td>
+            <td>{{db.dept}}</td>
+            <td>{{db.program}}</td>
+          
+          </tr>
+
+        </tbody>
+      </table>
+    
+
+
+</body>
+</html>
